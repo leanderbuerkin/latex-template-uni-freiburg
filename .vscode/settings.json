@@ -1,0 +1,87 @@
+{
+  "git.openRepositoryInParentFolders": "always",
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "editor.formatOnSave": true,
+  "explorer.autoRevealExclude": { "**/main.pdf": true },
+  "[latex]": {
+    "editor.defaultFormatter": "James-Yu.latex-workshop"
+  },
+  "latex-workshop.synctex.afterBuild.enabled": true,
+  "latex-workshop.linting.chktex.enabled": true,
+  "latex-workshop.linting.lacheck.enabled": true,
+  "latex-workshop.latex.build.rootfileInStatus": true,
+  "latex-workshop.formatting.latex": "latexindent",
+  "latex-workshop.formatting.latexindent.path": "/usr/bin/latexindent",
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  "latex-workshop.latex.autoClean.run": "onBuilt",
+  "latex-workshop.latex.outDir": "%DIR%/output",
+  "latex-workshop.latex.tools": [
+    {
+      "name": "latexmk",
+      "command": "latexmk",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-pdf",
+        "-output-directory=%OUTDIR%",
+        "%DOC%"
+      ]
+    },
+    {
+      "name": "makeglossaries",
+      "command": "makeglossaries",
+      "args": ["-d", "%OUTDIR%", "%DOCFILE%"]
+    }
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "latexmk → makeglossaries → latexmk",
+      "tools": ["latexmk", "makeglossaries", "latexmk"]
+    }
+  ],
+  "cSpell.enabled": true,
+  "cSpell.language": "en,de",
+  "cSpell.words": [
+    "allowbreak",
+    "autoref",
+    "basicstyle",
+    "bfseries",
+    "bibliographystyle",
+    "bibtex",
+    "booktabs",
+    "bottomrule",
+    "breaklines",
+    "citet",
+    "commentstyle",
+    "includegraphics",
+    "includeonly",
+    "itshape",
+    "keywordstyle",
+    "lstlisting",
+    "lstset",
+    "midrule",
+    "onehalfspacing",
+    "ORCID",
+    "plainnat",
+    "subsec",
+    "subsubsection",
+    "subsubsections",
+    "texlive",
+    "textbf",
+    "textsc",
+    "texttt",
+    "textwidth",
+    "toprule",
+    "ttfamily",
+    "usepackage",
+    "Wikibook",
+    "makeglossaries",
+    "lstlistoflistings",
+    "orcidlink",
+    "symbolslist",
+    "chktex",
+    "Bürkin"
+  ]
+}

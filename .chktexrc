@@ -1,0 +1,11 @@
+# Be careful with whitespaces!
+# Before and after every (Curly) Bracket must be a whitespace.
+# Otherwise the checker fails and does not produce any warnings.
+
+# If you change something in this file,
+# you should add a # in front of everything in this file and check the produced errors.
+# Then add only your changes and see if the one error you want to fix is gone.
+# If it is, re-insert the commented lines.
+
+Silent { \makeglossaries \lstlistoflistings }
+WipeArg { \orcidlink:{} }
