@@ -42,6 +42,8 @@ but you don't wont to discover that one of them is not after writing
 your thesis. We have included an example, which you need to update to
 match the AI declaration.
 
+You should update the declaration to match your usage of AI.
+
 The AI declaration is a way to make sure that if in the future it
 turns to be possible to detect AI usage, you have properly declared it
 (unlike various German politicians).
