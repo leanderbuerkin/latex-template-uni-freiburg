@@ -33,6 +33,20 @@ If not, go to Extensions by pressing CTRL + SHIFT + X and search @recommended.
 
 ## Usage
 
+### AI Declaration
+
+There is currently a debate among professors on the AI declaration
+(both if it should be added and if you are allowed to use AI). It is
+important to discuss this early -- most professors are fine with it,
+but you don't wont to discover that one of them is not after writing
+your thesis. We have included an example, which you need to update to
+match the AI declaration.
+
+The AI declaration is a way to make sure that if in the future it
+turns to be possible to detect AI usage, you have properly declared it
+(unlike various German politicians).
+
+
 ### Cover
 
 #### Get Cover
