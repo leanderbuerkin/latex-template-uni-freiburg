@@ -65,11 +65,25 @@ with the content of `setup.tex` and delete `setup.tex`.
 
 ### Hints
 
-Sometimes there is no PDF generated, especially when you open the project for the first time.
-Just wait a few seconds, recompile and if it still doesn't work, restart VSC or your computer.
-
 More hints and examples are given in the file [sections/conclusion.tex](sections/conclusion.tex).
 
 There is also a Guide written by the Github Copilot, checked by hand:
 [GUIDE_AI_Generated.md](GUIDE_AI_Generated.md)
 Everything else in this archive is not written by AI.
+
+### Known Issues
+
+#### No PDF
+
+Sometimes there is no PDF generated, especially when you open the project for the first time.
+Just wait a few seconds, recompile and if it still doesn't work, restart VSC or your computer.
+
+#### Generated Files Not In Output-Folder Or Glossaries Do Not Work
+
+The `.vscode`-folder must be directly inside the folder you opened in VSC.
+
+E.g. if you open the folder `thesis` which contains `latex` which contains `.vscode`
+you should move or copy the `.vscode` directly into `thesis`
+or open the `latex`-folder directly to compile the PDF.
+
+The best way is to open the folder you cloned/downloaded from here always separately in VSC.
