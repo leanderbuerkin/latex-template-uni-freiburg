@@ -87,3 +87,15 @@ you should move or copy the `.vscode` directly into `thesis`
 or open the `latex`-folder directly to compile the PDF.
 
 The best way is to open the folder you cloned/downloaded from here always separately in VSC.
+
+#### ChkTeX-Errors
+
+If `\LaTeX` or similar commands without parenthesis produce the following error:
+
+```
+1: Command terminated with space.
+```
+
+You can add the command to the `.chktexrc`-file. The file provides more infos.
+
+You can also handle other errors in there.
